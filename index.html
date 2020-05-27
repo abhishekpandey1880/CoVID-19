@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CoVID-19</title>
+	<link rel="icon" href="./images/coronavirus.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+	<!-- navigation bar -->
+	<div class="topnav" id="myTopnav">
+	  <a href="#home" class="active">Home</a>
+	  <a href="#history">History</a>
+	  <a href="#symptons">Symptons</a>
+	  <a href="#diagnosis">Diagnosis</a>
+	  <a href="#prevention">Prevention measures</a>
+	  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+	    <i class="fa fa-bars"></i>
+	  </a>
+    </div>
+<!-- home -->
+	<h1 style="color: #142850; text-align: center; font-size: 50px; font-family: fantasy; margin-top: 120px; font-family: 'Montserrat', sans-serif; font-weight: bolder;">Live Cases:</h1>
+    <div class="cards t-center">
+	    <div class="card fadeInUp-1">
+		    <img class="flag" src="./images/india.webp" alt="india flag" width="225px" height="119px">
+		    <div class="card-body">
+		      <p id="india" class="text" style="color: white"></p>
+		    </div>
+	    </div>
+
+	    <div class="card fadeInUp-2">
+			  <img class="flag" src="./images/USA.svg" alt="india flag" width="225px" height="119px">
+			  <div class="card-body">
+			    <p id="usa" class="text"></p>
+			  </div>
+	    </div>
+
+		<div class="card fadeInUp-3">
+			<img class="flag" src="./images/uk.svg" alt="india flag" width="225px" height="119px">
+		    <div class="card-body">
+			  <p id="uk" class="text"></p>
+			</div>
+		 </div>
+
+	    <div class="card fadeInUp-4">
+		  <img class="flag" src="./images/world.png" alt="india flag" width="225px" height="119px">
+		  <div class="card-body">
+		    <p id="world" class="text"></p>
+		  </div>
+	    </div>
+	</div>
+<!-- histroy -->
+	<div id="history" class="history">
+		<h1 class="t-center" style="font-family: 'Montserrat', sans-serif; color: #dae1e7; font-size: 60px; background-color: #142850">History</h1>
+		<div class="aux">
+			<h1 class="t-center" style="color: #142850">
+				#WorldWide
+			</h1>
+			<div class="text-box">
+				<p class="p1">
+					The First Case of CoVID-19 was reported on 31 December 2019 
+					in Wuhan,China. On 30 January 2020, the WHO declared the Outbreak 
+					a Public Health Emergency of International Concern. Till then 7,818 
+					case were confirmed globally, affecting 19 countries. As of 26 May 
+					more than 5.5M cases are reported across the globe. Countries like
+					USA, UK, RUSSIA, SPAIN have got infected many peoples in their country.
+					This numbers are increasing always.
+				</p>
+		  </div>
+		</div>
+		<div class="aux">
+			<h1 class="t-center" style="color: #142850">
+				#India
+			</h1>
+			<div class="text-box">
+				<p class="p1">
+					The first case in India was reported on 30 January 2020 in Kerela 
+					which rose to 3 cases by 3rd February. Till 1st March it was not 
+				increased. By April it rose to 2,059 cases. Uptill 1st April it was 
+				not growing linearly, But from 1st week of April the number of cases 
+				shown a sudden increase. On 1st May it was 37,262 and on 26 May
+				1,50,000 and still growing.
+				<br>
+				<br>
+				For More information about india <a style="color: #dae1e7" href="https://www.covid19india.org/" target="_blank">visit here</a>
+				</p> 
+			</div>
+		</div>
+	</div>
+<!-- symptomps -->
+	<div id="symptons" class="symptons">
+		<h1 class="t-center" style="color: #dae1e7; font-size: 60px; background-color: #142850; font-family: 'Montserrat', sans-serif;" >Symptons</h1>
+		<div class="sy-box">
+			<div class="sy-cards">
+				<div class="sy-card">
+					<img class="gif" src="./images/fever.gif" alt="fever" width="100px" height="100px">
+				    <div>
+				      <p class="t-center"> fever </p>
+				    </div>
+				</div>
+				<div class="sy-card">
+					<img class="gif" src="./images/cough.gif" alt="cough" width="100px" height="100px">
+				    <div>
+				      <p class="t-center"> cough </p>
+				    </div>
+				</div>
+				<div class="sy-card">
+					<img class="gif" src="./images/tiredness.gif" alt="tiredness" width="100px" height="100px">
+				    <div>
+				      <p class="t-center"> tiredness </p>
+				    </div>
+				</div>
+			</div>
+			<div class="sy-text">
+				<p style="font-size: 20px; color: #dae1e7;"> COVID-19 affects different people in different ways. Most infected people will develop mild to moderate illness and recover without hospitalization.</p>
+				<div class="line">
+				</div>
+				<p style="font-size: 18px; color: #dae1e7;"> Most Common Symptons: </p>
+				<ul style="font-size: 18px; color: #dae1e7;">
+					<li>Fever</li>
+					<li>Cough</li>
+					<li>Tiredness</li>
+				</ul>
+				<p style="font-size: 18px; color: #dae1e7;"> Less Common Symptons: </p>
+				<ul style="font-size: 18px; color: #dae1e7;">
+					<li>aches and pains</li>
+					<li>sore throat</li>
+					<li>diarrhoea</li>
+					<li>conjunctivitis</li>
+					<li>headache</li>
+					<li>loss of taste or smell</li>
+					<li>a rash on skin, or discolouration of fingers or toes</li>
+				</ul>
+				<p style="font-size: 18px; color: #dae1e7;"> Serious Symptons: </p>
+				<ul style="font-size: 18px; color: #dae1e7;">
+					<li>difficulty breathing or shortness of breath</li>
+					<li>chest pain or pressure</li>
+					<li>loss of speech or movement</li>
+				</ul>
+				<br>
+				<p style="line-height: 25px; font-size: 18px; color: #dae1e7;">Seek immediate medical attention if you have serious symptoms. Always call before visiting your doctor or health facility.<br><br>
+                People with mild symptoms who are otherwise healthy should manage their symptoms at home.
+				On average it takes 5–6 days from when someone is infected with the virus for symptoms to show, however it can take up to 14 days.</p>
+			</div>
+		</div>
+	</div>
+<!-- diagnosis -->
+	<div id="diagnosis" class="diagnosis">
+		<h1 class="t-center" style="color: #dae1e7; font-size: 60px; background-color: #142850; font-family: 'Montserrat', sans-serif;">Diagnosis</h1>
+		<div class="dig">
+			<h1 class="t-center" style="color: #142850">
+				Diagnosis
+			</h1>
+			<div class="text-box">
+				<p class="p1">
+					 The WHO has published several testing protocols for the disease.The standard method of testing is real-time reverse transcription polymerase chain reaction (rRT-PCR). The test is typically done on respiratory samples obtained by a nasopharyngeal swab; however, a nasal swab or sputum sample may also be used. Results are generally available within a few hours to two days. Blood tests can be used, but these require two blood samples taken two weeks apart, and the results have little immediate value. Chinese scientists were able to isolate a strain of the coronavirus and publish the genetic sequence so laboratories across the world could independently develop polymerase chain reaction (PCR) tests to detect infection by the virus. As of 4 April 2020, antibody tests (which may detect active infections and whether a person had been infected in the past) were in development, but not yet widely used.
+				</p>
+		  </div>
+     <img class="img" src="./images/diagnosis.webp" alt="diagnosis image" width="100%" height="100%">
+		</div>
+		<div class="dig">
+			<h1 class="t-center" style="color: #142850">
+				Pathology
+			</h1>
+			<div class="text-box">
+				<p class="p1">
+					Few data are available about microscopic lesions and the pathophysiology of COVID‑19.The main pathological findings at autopsy are:
+				<ul class="list">
+						<li>Macroscopy: pleurisy, pericarditis, lung consolidation and pulmonary oedema</li>
+						<li>Four types of severity of viral pneumonia can be observed:</li>
+						<li>minor pneumonia: minor serous exudation, minor fibrin exudation</li>
+						<li>mild pneumonia: pulmonary oedema, pneumocyte hyperplasia, large atypical pneumocytes, interstitial inflammation with lymphocytic infiltration and multinucleated giant cell formation</li>
+						<li>severe pneumonia: diffuse alveolar damage (DAD) with diffuse alveolar exudates. DAD is the cause of acute respiratory distress syndrome (ARDS) and severe hypoxemia.</li>
+						<li>healing pneumonia: organisation of exudates in alveolar cavities and pulmonary interstitial fibrosis</li>
+						<li>plasmocytosis in BAL</li>
+						<li>Blood: disseminated intravascular coagulation (DIC); leukoerythroblastic reaction.</li>
+						<li>Liver: microvesicular steatosis.</li>
+				</ul>
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- prevention measures -->
+	<div id="prevention" class="prevention">
+		<h1 class="t-center" style="color: #dae1e7; font-size: 60px; background-color: #142850; font-family: 'Montserrat', sans-serif;">Prevention Measures</h1>
+		<div class="dig">
+			<div class="text-box" style="margin-top: 3em;">
+				<p class="p1">
+					Preventive measures to reduce the chances of infection include staying at home, avoiding crowded places, keeping distance from others, washing hands with soap and water often and for at least 20 seconds, practising good respiratory hygiene, and avoiding touching the eyes, nose, or mouth with unwashed hands. The U.S. Centers for Disease Control and Prevention (CDC) recommends covering the mouth and nose with a tissue when coughing or sneezing and recommends using the inside of the elbow if no tissue is available. Proper hand hygiene after any cough or sneeze is encouraged. The CDC has recommended cloth face coverings in public settings where other social distancing measures are difficult to maintain, in part to limit transmission by asymptomatic individuals. The U.S. National Institutes of Health guidelines do not recommend any medication for prevention of COVID‑19, before or after exposure to the SARS-CoV-2 virus, outside the setting of a clinical trial.
+				</p>
+		  </div>
+		</div>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+	<footer style="background-color: #142850; color: #dae1e7; padding: 20px; margin-top: 200px;">
+		Contact Us: <a style="color: #00909e; display: inline;" href="mailto:nlimbasiya13">abhishekpandey1880@gmail.com  </a>
+		<p>© 2020 Abhishek Pandey.</p>
+    </footer>
+</body>
+</html>
